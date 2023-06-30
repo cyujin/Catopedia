@@ -44,7 +44,7 @@ class CatData {
     //API URL
     let baseURL = "https://api.thecatapi.com/v1/breeds"
     //API KEY
-    let apiKey = "live_wLFZYYr0K2EzFic3c5VbSmdUvDoJMx3A04peNyX9gj4uDwM8J8GJxWPZ3X5p7m9N"
+    let apiKey = ""
 
     //고양이 데이터셋을 가져오는 함수
     func fetchCatBreeds(completion: @escaping ([CatBreed]?, Error?) -> Void) {
